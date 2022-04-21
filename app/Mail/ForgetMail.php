@@ -32,3 +32,5 @@ class ForgetMail extends Mailable
         return $this->from('hello@example.com')->view('mail.forget',compact('data'))->subject('Password Reset Link');
     }
 }
+
+
